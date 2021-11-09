@@ -1,0 +1,22 @@
+Approaches:
+ - try to fulfill each phase
+ - generate all possible set/run combos
+
+ - start from scratch vs build off previous phases
+ 
+ Going phase by phase:
+ - generate all sets and generate all runs -> vet all phases except 2 and 3
+ - for phase 2 and 3 for all possible runs of 4 create sets from remaining cards if max set is large enough phase gets a pass
+
+
+Logistics:
+ - Ask for input or generate random
+ - Validate user inputted hand
+
+
+Notes:
+ - sets are mutually exclusive, runs are mutually exclusive
+ - overlap between sets and runs
+ 
+
+ 
